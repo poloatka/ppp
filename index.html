@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#9c4527">
+    <meta name="description" content="Meet your new favorite cuddle buddy: the Stuffed red fox, a soft plush friend made for cozy days.">
+    <title>Stuffed — The Little Fox</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      <span class="announcement-copy">FREE SHIPPING ON ORDERS $50+</span>
+    </div>
+
+    <div class="sale-ribbon" role="region" aria-label="Fox pair offer. Save 10 percent when you choose two foxes.">
+      <div class="sale-track" aria-hidden="true">
+        <div class="sale-group">
+          <span>A LITTLE FOX, A LOT OF LOVE</span><i>✦</i><strong>FOX PAIR · SAVE 10%</strong><i>✦</i><span>YOUR CUDDLE CLUB PERK</span><i>✦</i><strong>FREE SHIPPING OVER $50</strong><i>✦</i>
+        </div>
+        <div class="sale-group">
+          <span>A LITTLE FOX, A LOT OF LOVE</span><i>✦</i><strong>FOX PAIR · SAVE 10%</strong><i>✦</i><span>YOUR CUDDLE CLUB PERK</span><i>✦</i><strong>FREE SHIPPING OVER $50</strong><i>✦</i>
+        </div>
+      </div>
+      <button class="motion-toggle sale-motion-toggle" type="button" aria-label="Pause sale ticker" aria-pressed="false">Ⅱ</button>
+    </div>
+
+    <header class="site-header">
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="wordmark" href="#home" aria-label="Stuffed home">Stuffed<span>®</span></a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#ritual">Our little fox</a>
+        <a href="#ingredients">Why you'll love it</a>
+        <a href="#reviews">Happy hugs</a>
+      </nav>
+      <button class="cart-trigger" type="button" aria-label="Open shopping bag, 0 items">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8Zm4 1V6a3 3 0 0 1 6 0v3"/></svg>
+        <span class="cart-count" aria-live="polite">0</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-art">
+          <span class="art-sticker sticker-top">HUGS<br>INCOMING <span aria-hidden="true">♡</span></span>
+          <span class="art-sticker sticker-bottom"><span aria-hidden="true">✦</span> SO SOFT</span>
+          <img class="product-photo" src="assets/stuffed-fox-product.png" width="300" height="220" alt="The plush fox from the product photo, shown with three smaller fox friends against a white background" fetchpriority="high">
+          <span class="art-caption">your new little <em>bestie</em></span>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-star">✦</span> MEET YOUR NEW POCKET-SIZED PAL</p>
+          <h1>The Little Fox<br><span>Big-time cuddle buddy.</span></h1>
+          <p class="hero-description">A fluffy, friendly fox with soft rust-red fur, cream-colored cheeks, and paws made for staying in.</p>
+          <div class="rating-line" aria-label="No reviews yet; be the first to leave a review">
+            <span class="stars" aria-hidden="true">♡</span>
+            <a href="#reviews">A few love notes from fox fans ↗</a>
+          </div>
+          <div class="product-price">
+            <strong class="selected-price">$34.00</strong>
+            <span class="price-unit">One very huggable fox</span>
+            <span class="product-note">The softest plus-one for movie nights, long trips, and little adventures.</span>
+          </div>
+          <div class="pack-heading"><strong>Pick your cuddle crew</strong><span class="pack-count">1 fox</span></div>
+          <div class="pack-options" role="group" aria-label="Choose your fox set">
+            <button class="pack-option is-selected" type="button" data-pack="solo" aria-pressed="true">
+              <span class="pack-radio" aria-hidden="true"></span>
+              <span class="pack-copy"><strong>One little fox</strong><small>Your very own snuggle pal</small></span>
+              <span class="pack-price">$34.00</span>
+            </button>
+            <button class="pack-option" type="button" data-pack="duo" aria-pressed="false">
+              <span class="pack-radio" aria-hidden="true"></span>
+              <span class="pack-copy"><strong>Fox friends <span class="best-value">SAVE 10%</span></strong><small>One to keep, one to gift</small></span>
+              <span class="pack-price">$61.20</span>
+            </button>
+          </div>
+          <div class="hero-buy">
+            <div class="quantity-picker" aria-label="Set quantity">
+              <button type="button" data-pack-quantity="-1" aria-label="Remove one set">−</button>
+              <span class="pack-quantity" aria-live="polite">1</span>
+              <button type="button" data-pack-quantity="1" aria-label="Add one set">+</button>
+            </div>
+            <button class="button button-dark" type="button" data-add><svg class="bag-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8Zm4 1V6a3 3 0 0 1 6 0v3"/></svg> ADD TO BAG <strong class="button-price">$34.00</strong><span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="hero-proof">
+            <span><span aria-hidden="true">✦</span> Ready for a hug</span>
+            <span><span aria-hidden="true">◉</span> Free shipping over $50</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker" aria-label="Soft paws, warm hugs, little fox energy">
+        <div class="ticker-track" aria-hidden="true">
+          <span>SOFT PAWS</span><i>✦</i><span>WARM HUGS</span><i>✦</i><span>LITTLE FOX ENERGY</span><i>✦</i><span>SOFT PAWS</span><i>✦</i><span>WARM HUGS</span><i>✦</i><span>LITTLE FOX ENERGY</span><i>✦</i>
+        </div>
+      </div>
+
+      <section class="ritual section-wrap" id="ritual">
+        <div class="section-heading">
+          <p class="eyebrow">A SMALL FOX WITH A BIG HEART</p>
+          <h2>Built for<br><span>the big squeeze.</span></h2>
+        </div>
+        <div class="ritual-content">
+          <p>Meet the softest member of your cuddle crew. Little Fox brings story-time charm, sofa-side company, and one very squeezable tail to every day.</p>
+          <a class="text-link" href="#ingredients">Get to know your new pal <span aria-hidden="true">↘</span></a>
+          <div class="benefit-grid">
+            <article class="benefit-card">
+              <span class="benefit-icon icon-sun" aria-hidden="true">♡</span>
+              <h3>Ridiculously soft</h3>
+              <p>Velvety plush fur and the fluffiest little cheeks.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="benefit-icon icon-drop" aria-hidden="true">✦</span>
+              <h3>Made for company</h3>
+              <p>A sweet sidekick for sleepovers and slow mornings.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="benefit-icon icon-flower" aria-hidden="true">☁</span>
+              <h3>Ready to adventure</h3>
+              <p>Just the right buddy for car rides and big imaginations.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ingredient-section" id="ingredients">
+        <div class="ingredient-art" aria-hidden="true">
+          <span class="ingredient-orbit orbit-one"></span>
+          <span class="ingredient-orbit orbit-two"></span>
+          <span class="ingredient-leaf">♡</span>
+          <span class="ingredient-name">a whole lot<br>of heart</span>
+          <div class="ingredient-pills"><span>SOFT PLUSH</span><span>FLUFFY TAIL</span><span>FOX FRIEND</span></div>
+        </div>
+        <div class="ingredient-copy">
+          <p class="eyebrow">A FOX WITH THE COZIEST DETAILS</p>
+          <h2>Maximum fluff.<br><span>Maximum friend.</span></h2>
+          <p>That bright rust coat, soft cream muzzle, and fluffy white-tipped tail? All the storybook fox charm, in one very huggable little pal.</p>
+          <ul class="ingredient-list">
+            <li><span>01</span><div><strong>Fox-soft fur</strong><p>Soft rust-orange plush with a cuddly cream face.</p></div></li>
+            <li><span>02</span><div><strong>Fluffy little tail</strong><p>A white-tipped swish made for snuggling close.</p></div></li>
+            <li><span>03</span><div><strong>Friend-sized feelings</strong><p>A sweet gift for fox fans, little ones, and big kids.</p></div></li>
+          </ul>
+          <p class="ingredient-footnote">Please confirm exact dimensions, materials, care instructions, and age-safety details for your specific plush before publishing.</p>
+        </div>
+      </section>
+
+      <section class="bundle-section section-wrap">
+        <div class="bundle-copy">
+          <p class="eyebrow">TWICE THE TAIL WAGS</p>
+          <h2>One to keep.<br><span>One to gift.</span></h2>
+          <p>Double the fox friends, double the cozy. Bring home a pair and save 10%—one for your favorite person, and one for you.</p>
+          <button class="button button-light" type="button" data-add-duo>GET THE FOX FRIENDS — $61.20 <span aria-hidden="true">↗</span></button>
+          <p class="bundle-note">That's $6.80 off two little foxes.</p>
+        </div>
+        <div class="bundle-visual" aria-hidden="true">
+          <span class="bundle-sparkle sparkle-a">✦</span><span class="bundle-sparkle sparkle-b">♡</span>
+          <img class="bundle-image" src="assets/stuffed-fox-product.png" width="300" height="220" alt="The plush fox product with its smaller fox companions" loading="lazy">
+          <span class="duo-badge">FOX<br>FRIENDS<br>10% OFF</span>
+        </div>
+      </section>
+
+      <section class="reviews-section section-wrap" id="reviews">
+        <div class="reviews-heading">
+          <p class="eyebrow">LITTLE NOTES FROM THE CUDDLE CLUB</p>
+          <h2>Fox fans have<br><span>good things to say.</span></h2>
+          <p>Review cards below are design placeholders, not actual customer testimonials. Connect a reviews app and swap in verified reviews before launch.</p>
+          <button class="motion-toggle reviews-motion-toggle" type="button" aria-label="Pause review carousel" aria-pressed="false">Pause reviews</button>
+        </div>
+        <div class="review-window" role="region" aria-label="Sample review cards. Animation pauses on hover or keyboard focus.">
+          <div class="review-track">
+            <div class="review-grid">
+          <article class="review-card">
+            <div class="review-stars">A LITTLE LOVE NOTE</div>
+            <blockquote>“Add a verified customer note here about their new favorite fox friend.”</blockquote>
+            <div class="review-author"><span class="review-avatar avatar-peach">♡</span><span><strong>Fox fan</strong><small>Sample card · replace before launch</small></span></div>
+          </article>
+          <article class="review-card review-featured">
+            <div class="review-stars">FROM THE CUDDLE CLUB</div>
+            <blockquote>“This spot is for a real little story from someone who welcomed the fox home.”</blockquote>
+            <div class="review-author"><span class="review-avatar avatar-lilac">✦</span><span><strong>Happy hugger</strong><small>Sample card · replace before launch</small></span></div>
+          </article>
+          <article class="review-card">
+            <div class="review-stars">FOX FRIENDS FOREVER</div>
+            <blockquote>“Replace this sample with a verified review in your own customers’ words.”</blockquote>
+            <div class="review-author"><span class="review-avatar avatar-lemon">♥</span><span><strong>Cozy companion</strong><small>Sample card · replace before launch</small></span></div>
+          </article>
+            </div>
+            <div class="review-grid review-grid-copy" aria-hidden="true">
+              <article class="review-card">
+                <div class="review-stars">A LITTLE LOVE NOTE</div>
+                <blockquote>“Add a verified customer note here about their new favorite fox friend.”</blockquote>
+                <div class="review-author"><span class="review-avatar avatar-peach">♡</span><span><strong>Fox fan</strong><small>Sample card · replace before launch</small></span></div>
+              </article>
+              <article class="review-card review-featured">
+                <div class="review-stars">FROM THE CUDDLE CLUB</div>
+                <blockquote>“This spot is for a real little story from someone who welcomed the fox home.”</blockquote>
+                <div class="review-author"><span class="review-avatar avatar-lilac">✦</span><span><strong>Happy hugger</strong><small>Sample card · replace before launch</small></span></div>
+              </article>
+              <article class="review-card">
+                <div class="review-stars">FOX FRIENDS FOREVER</div>
+                <blockquote>“Replace this sample with a verified review in your own customers’ words.”</blockquote>
+                <div class="review-author"><span class="review-avatar avatar-lemon">♥</span><span><strong>Cozy companion</strong><small>Sample card · replace before launch</small></span></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section section-wrap">
+        <div>
+          <p class="eyebrow">FOX FRIEND FAQ</p>
+          <h2>Good questions.<br><span>Cozy answers.</span></h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>How big is the fox?<span aria-hidden="true">+</span></summary>
+            <p>Add the exact product height and measurements here once confirmed for the plush you plan to sell.</p>
+          </details>
+          <details>
+            <summary>How do I care for my fox?<span aria-hidden="true">+</span></summary>
+            <p>Check the manufacturer’s care label and add the verified cleaning instructions here before launch.</p>
+          </details>
+          <details>
+            <summary>When will my order arrive?<span aria-hidden="true">+</span></summary>
+            <p>Add your accurate processing and delivery estimates here before launch. Orders over $50 qualify for free US shipping.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="newsletter-section">
+        <span class="newsletter-flower" aria-hidden="true">♡</span>
+        <p class="eyebrow">LETTERS FROM THE FOX DEN</p>
+        <h2>A little fluff<br>in your inbox.</h2>
+        <p>New fox friends, cozy surprises, and occasional notes from the cuddle club.</p>
+        <form class="newsletter-form">
+          <label class="sr-only" for="email">Your email address</label>
+          <input id="email" name="email" type="email" placeholder="Your email address" autocomplete="email" required>
+          <button type="submit" aria-label="Sign up for emails">COUNT ME IN ↗</button>
+        </form>
+        <p class="form-message" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#home">Stuffed<span>®</span></a>
+      <p>Made for hugs. Here for the happy.</p>
+      <div class="footer-links"><a href="#ingredients">The fox</a><a href="#reviews">Reviews</a><a href="mailto:hello@stuffed.example">Say hello</a></div>
+      <small>© 2026 Stuffed. A storefront concept—connect Shopify checkout, policies, and verified product details before selling.</small>
+    </footer>
+
+    <div class="upsell-overlay" hidden>
+      <section class="upsell-dialog" role="dialog" aria-modal="true" aria-labelledby="upsell-title" aria-describedby="upsell-description">
+        <button class="upsell-close" type="button" aria-label="No thanks, continue with one fox">×</button>
+        <span class="upsell-sparkle" aria-hidden="true">✦</span>
+        <img class="upsell-photo" src="assets/stuffed-fox-product.png" width="300" height="220" alt="The Little Fox plush">
+        <p class="eyebrow">A LITTLE SOMETHING EXTRA</p>
+        <h2 id="upsell-title">One fox is lovely.<br><span>Fox friends?</span></h2>
+        <p id="upsell-description">Add a second cuddle buddy and save 10% on the pair. One to keep, one to gift.</p>
+        <div class="upsell-price"><strong>$61.20</strong><span>2 foxes · save $6.80</span></div>
+        <button class="button upsell-accept" type="button">YES, ADD FOX FRIENDS <span aria-hidden="true">↗</span></button>
+        <button class="upsell-decline" type="button">No thanks, just one fox</button>
+      </section>
+    </div>
+
+    <div class="sticky-buy-bar">
+      <button class="button button-light" type="button" data-add><svg class="bag-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8Zm4 1V6a3 3 0 0 1 6 0v3"/></svg> ADD TO BAG <span aria-hidden="true">↗</span></button>
+    </div>
+
+    <div class="cart-backdrop" hidden></div>
+    <aside class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true">
+      <div class="cart-header">
+        <div><p class="eyebrow">YOUR LITTLE BAG</p><h2 id="cart-title">The good stuff.</h2></div>
+        <button class="cart-close" type="button" aria-label="Close shopping bag">×</button>
+      </div>
+      <p class="shipping-message" aria-live="polite"></p>
+      <div class="shipping-track"><span></span></div>
+      <div class="cart-items"></div>
+      <div class="cart-empty">Your bag is looking a little lonely.<br><a href="#home">Meet your new fox friend ↗</a></div>
+      <div class="cart-footer">
+        <div class="cart-subtotal"><span>Subtotal</span><strong>$0.00</strong></div>
+        <p>Shipping and any applicable taxes are calculated at checkout.</p>
+        <button class="button button-dark checkout-button" type="button">CONTINUE TO CHECKOUT <span aria-hidden="true">↗</span></button>
+        <p class="checkout-note" aria-live="polite"></p>
+      </div>
+    </aside>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
